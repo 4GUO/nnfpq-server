@@ -1,5 +1,9 @@
 # 基于Gatewaywork的牛牛发牌器，服务端支持
 
+
+## 如何运行
+移步 https://www.workerman.net/doc/gateway-worker/
+
 ## 后台逻辑设计
 
 ### 登录逻辑
@@ -104,3 +108,8 @@
     2 因为只是一个实验性项目，以简单为主，所以直接解散房间
   ```
 
+## 鸣谢
+  ```
+  gatewaywork
+  php
+  ```
