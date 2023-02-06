@@ -1,0 +1,24 @@
+{
+  "name": "workerman/workerman-chat",
+  "type": "project",
+  "keywords": [
+    "chat"
+  ],
+  "homepage": "http://www.workerman.net",
+  "license": "MIT",
+  "require": {
+    "workerman/gateway-worker": ">=3.0.0",
+    "workerman/workerman": "~4.0.0",
+    "nikic/fast-route": "^1.3",
+    "workerman/http-client": "^1.0",
+    "php-curl-class/php-curl-class": "^9.5",
+    "workerman/redis": "^1.0",
+    "workerman/mysql": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "GW\\": "Applications",
+      "" : "./Applications"
+    }
+  }
+}
