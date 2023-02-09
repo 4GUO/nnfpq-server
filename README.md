@@ -1,4 +1,4 @@
-# 基于Gatewaywork的牛牛发牌器，服务端支持
+# 基于Gatewayworker的牛牛发牌器，服务端支持
 
 
 ## 如何运行
